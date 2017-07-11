@@ -36,7 +36,7 @@
         <f:else>
             <f:security.ifAccess privilegeTarget="Neos.Neos:Backend.GeneralAccess">
                 <f:if condition="{node.context.workspace.name} != 'live'">
-                    <img src="{f:uri.resource(package: 'Neos.Neos', path: 'Images/dummy-image.svg')}" title="AlpakaweltWeinmesser image" alt="AlpakaweltWeinmesser image" class="neos-handle" />
+                    <img src="{f:uri.resource(package: 'Neos.Neos', path: 'Images/dummy-image.svg')}" title="" alt="" class="neos-handle" />
                 </f:if>
             </f:security.ifAccess>
         </f:else>

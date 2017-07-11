@@ -25,7 +25,18 @@
     </div>
 </f:section>
 <f:section name="cardContent">
-    <media:image image="{cardImage}" width="300" height="180" allowCropping="TRUE" alt="" />
+    <f:if condition="{cardImage}">
+        <f:then>
+            <media:image image="{cardImage}" maximumWidth="300" maximumHeight="180" allowCropping="TRUE" alt="" />
+        </f:then>
+        <f:else>
+            <f:security.ifAccess privilegeTarget="Neos.Neos:Backend.GeneralAccess">
+                <f:if condition="{node.context.workspace.name} != 'live'">
+                    <img src="{f:uri.resource(package: 'Neos.Neos', path: 'Images/dummy-image.svg')}" title="" alt="" class="neos-handle" />
+                </f:if>
+            </f:security.ifAccess>
+        </f:else>
+    </f:if>
     <div class="cardcontent">
         {neos:contentElement.editable(property: 'cardTitle', tag: 'h3')}
         {neos:contentElement.editable(property: 'cardBody')}

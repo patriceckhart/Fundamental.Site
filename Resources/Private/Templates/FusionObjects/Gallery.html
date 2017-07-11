@@ -18,7 +18,9 @@
         </f:then>
         <f:else>
             <f:if condition="{node.context.workspace.name} != 'live'">
-                <p>Keine Fotos angelegt.</p>
+                <ul{attributes -> f:format.raw()}>
+                <li>{f:translate(id: 'choosefiles', package: 'Fundamental.Site', source: 'Main')}</li>
+                </ul>
             </f:if>
         </f:else>
     </f:if>

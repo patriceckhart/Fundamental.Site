@@ -17,6 +17,9 @@
             <trans-unit id="nosubmenu" xml:space="preserve">
 				<source>Keine Untermenüs anzeigen</source>
 			</trans-unit>
+            <trans-unit id="choosefiles" xml:space="preserve">
+				<source>Bitte rechts im Inspector Dateien auswählen</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
