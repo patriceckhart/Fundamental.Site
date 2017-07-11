@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="Fundamental.Site" source-language="de" datatype="plaintext">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Schaltfläche mit Link</source>
+			</trans-unit>
+            <trans-unit id="properties.center" xml:space="preserve">
+				<source>Schaltfläche zentrieren</source>
+			</trans-unit>
+            <trans-unit id="properties.link" xml:space="preserve">
+				<source>Zielseite</source>
+			</trans-unit>
+            <trans-unit id="properties.btntext" xml:space="preserve">
+				<source>Beschriftung</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

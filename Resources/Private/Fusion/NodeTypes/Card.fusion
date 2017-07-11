@@ -1,0 +1,3 @@
+prototype(Site:Card) < prototype(Content) {
+    templatePath = 'resource://Fundamental.Site/Private/Templates/FusionObjects/Card.html'
+}

@@ -1,0 +1,84 @@
+prototype(Neos.Neos:Page) {
+
+    head {
+
+        fundamentalCFontAwesome = Neos.Fusion:Tag {
+            @position = 'start'
+            tagName = 'link'
+            attributes {
+                media = 'all'
+                rel = 'stylesheet'
+                href = Neos.Fusion:ResourceUri {
+                    path = 'resource://Fundamental.Site/Public/Assets/font-awesome-4.7.0/css/font-awesome.min.css'
+                }
+            }
+        }
+
+        fundamentalCss = Neos.Fusion:Tag {
+            @position = 'before stylesheets'
+            tagName = 'link'
+            attributes {
+                media = 'all'
+                rel = 'stylesheet'
+                href = Neos.Fusion:ResourceUri {
+                    path = 'resource://Fundamental.Site/Public/Styles/app.css'
+                }
+            }
+        }
+
+        fundamentalBackendCss = Neos.Fusion:Tag {
+            @position = 'before stylesheets'
+            @process.1 = ${node.context.workspaceName != 'live' ? value : ''}
+            tagName = 'link'
+            attributes {
+                media = 'all'
+                rel = 'stylesheet'
+                href = Neos.Fusion:ResourceUri {
+                    path = 'resource://Fundamental.Site/Public/Styles/backend.css'
+                }
+            }
+        }
+
+        fundamentalJs = Neos.Fusion:Tag {
+            @position = 'end'
+            tagName = 'script'
+            attributes {
+                type = 'text/javascript'
+                src = Neos.Fusion:ResourceUri {
+                    path = 'resource://Fundamental.Site/Public/JavaScript/vendor/modernizr-2.8.3-respond-1.4.2.min.js'
+                }
+            }
+        }
+
+    }
+
+    fundamentalFooterJQuery = Neos.Fusion:Tag {
+        @position = 'end 97'
+        tagName = 'script'
+        attributes {
+            type = 'text/javascript'
+            src = Neos.Fusion:ResourceUri {
+                path = 'resource://Fundamental.Site/Public/JavaScript/vendor/jquery-1.11.2.min.js'
+            }
+        }
+    }
+
+    fundamentalFooterJs = Neos.Fusion:Tag {
+        @position = 'end 98'
+        tagName = 'script'
+        attributes {
+            type = 'text/javascript'
+            src = Neos.Fusion:ResourceUri {
+                path = 'resource://Fundamental.Site/Public/JavaScript/app.js'
+            }
+        }
+    }
+
+    #body.javascripts.@position = 'start'
+
+    #javascripts.site = Neos.Fusion:Template {
+        #@position = 'end 99'
+    #}
+
+}
+

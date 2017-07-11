@@ -1,0 +1,4 @@
+prototype(Neos.NodeTypes:Image) {
+    templatePath = 'resource://Fundamental.Site/Private/Templates/NodeTypes/Image.html'
+    fullwidth = ${q(node).property('fullwidth')}
+}

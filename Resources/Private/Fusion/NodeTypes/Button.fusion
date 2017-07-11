@@ -1,0 +1,3 @@
+prototype(Site:Button) < prototype(Content) {
+	templatePath = 'resource://Fundamental.Site/Private/Templates/FusionObjects/Button.html'
+}

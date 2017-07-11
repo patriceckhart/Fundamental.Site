@@ -1,0 +1,3 @@
+/* Accordion */
+.accordion { float:left; }
+.panel { max-height: auto; overflow: visible; }

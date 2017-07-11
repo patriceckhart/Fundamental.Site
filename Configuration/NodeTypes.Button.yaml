@@ -1,0 +1,36 @@
+'Fundamental.Site:Button':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    group: 'fundamental'
+    label: i18n
+    icon: 'icon-link'
+    inspector:
+      groups:
+        settings:
+          label: Fundamental.Site:Main:settings
+          icon: 'icon-cog'
+  properties:
+    center:
+      type: boolean
+      defaultValue: TRUE
+      ui:
+        label: 'Schaltfläche zentrieren'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
+    link:
+      type: reference
+      ui:
+        reloadIfChanged: TRUE
+        label: 'Zielseite'
+        inspector:
+          group: 'settings'
+    btntext:
+      type: string
+      ui:
+        label: 'Beschriftung'
+        defaultValue: 'Mehr Information'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'

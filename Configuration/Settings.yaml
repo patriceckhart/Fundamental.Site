@@ -1,0 +1,36 @@
+Fundamental:
+  Site:
+    templateRootPath: 'resource://Fundamental.Site/Private/Templates/'
+Neos:
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          Fundamental.Site:
+            - Main
+            - 'NodeTypes/*'
+      defaultLanguage: 'de'
+      inspector:
+        dataTypes:
+          'Neos\Media\Domain\Model\ImageInterface':
+            editorOptions:
+              features:
+                resize: TRUE
+      navigateComponent:
+        nodeTree:
+          loadingDepth: 999
+        structureTree:
+          loadingDepth: 999
+    nodeTypes:
+      groups:
+        socialmedia:
+          position: 'end'
+          label: Fundamental.Site:Main:socialmedia
+        fundamental:
+          position: 'end'
+          label: Fundamental.Site:Main:fundamental
+    fusion:
+      autoInclude:
+        Fundamental.Site: true
+    i18n:
+      defaultLocale: de

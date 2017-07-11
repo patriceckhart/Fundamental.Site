@@ -1,0 +1,39 @@
+'Fundamental.Site:Card':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    group: 'fundamental'
+    label: i18n
+    icon: 'icon-square-o'
+    inspector:
+      groups:
+        settings:
+          label: Fundamental.Site:Main:settings
+          icon: 'icon-cog'
+  properties:
+    cardTitle:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        inlineEditable: TRUE
+    cardBody:
+      type: string
+      defaultValue: ''
+      ui:
+        label: i18n
+        inlineEditable: TRUE
+    cardImage:
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: i18n
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
+    link:
+      type: reference
+      ui:
+        reloadIfChanged: TRUE
+        label: i18n
+        inspector:
+          group: 'settings'

@@ -1,0 +1,3 @@
+prototype(Site:CarouselItem) < prototype(Content) {
+    templatePath = 'resource://Fundamental.Site/Private/Templates/FusionObjects/CarouselItem.html'
+}

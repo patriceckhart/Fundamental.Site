@@ -1,0 +1,21 @@
+'Fundamental.Site:YouTube':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    group: 'socialmedia'
+    label: 'YouTube Video'
+    icon: 'icon-youtube-play'
+    inspector:
+      groups:
+        settings:
+          label: Fundamental.Site:Main:settings
+          icon: 'icon-cog'
+  properties:
+    youTubeLink:
+      type: string
+      defaultValue: 'https://www.youtube.com/embed/YOUTUBEID'
+      ui:
+        label: i18n
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'

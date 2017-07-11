@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="Fundamental.Site" source-language="en" datatype="plaintext">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Carousel Item</source>
+			</trans-unit>
+            <trans-unit id="properties.carouselItemImage" xml:space="preserve">
+				<source>Image</source>
+			</trans-unit>
+            <trans-unit id="properties.carouselItemTitle" xml:space="preserve">
+				<source>Title</source>
+			</trans-unit>
+            <trans-unit id="properties.carouselItemSubTitle" xml:space="preserve">
+				<source>Subtitle</source>
+			</trans-unit>
+            <trans-unit id="properties.link" xml:space="preserve">
+				<source>Targetpage</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

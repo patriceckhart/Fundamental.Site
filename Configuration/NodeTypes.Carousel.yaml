@@ -1,0 +1,15 @@
+'Fundamental.Site:Carousel':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  childNodes:
+    carouselItems:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          '*': FALSE
+          'Fundamental.Site:CarouselItem': TRUE
+  ui:
+    label: i18n
+    group: 'fundamental'
+    icon: 'icon-picture'
+    inlineEditable: TRUE

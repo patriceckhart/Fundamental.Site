@@ -1,0 +1,33 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+<f:render section="card" />
+<f:section name="card">
+    <div class="card">
+        <f:if condition="{link}">
+            <f:then>
+                <f:if condition="{node.context.workspace.name} != 'live'">
+                    <f:then>
+                        <f:render section="cardContent" />
+                    </f:then>
+                    <f:else>
+                        <neos:link.node node="{link}">
+                            <f:render section="cardContent" />
+                        </neos:link.node>
+                    </f:else>
+                </f:if>
+            </f:then>
+            <f:else>
+                <section>
+                    <f:render section="cardContent" />
+                </section>
+            </f:else>
+        </f:if>
+    </div>
+</f:section>
+<f:section name="cardContent">
+    <media:image image="{cardImage}" width="300" height="180" allowCropping="TRUE" alt="" />
+    <div class="cardcontent">
+        {neos:contentElement.editable(property: 'cardTitle', tag: 'h3')}
+        {neos:contentElement.editable(property: 'cardBody')}
+    </div>
+</f:section>

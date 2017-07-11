@@ -1,0 +1,6 @@
+prototype(Site:AccordionItem) < prototype(Content) {
+    templatePath = 'resource://Fundamental.Site/Private/Templates/FusionObjects/AccordionItem.html'
+    accordionItemContent = ContentCollection {
+        nodePath = 'accordionItemContent'
+    }
+}

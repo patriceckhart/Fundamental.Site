@@ -1,0 +1,41 @@
+'Fundamental.Site:CarouselItem':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    group: 'fundamental'
+    label: i18n
+    icon: 'icon-picture'
+    inspector:
+      groups:
+        settings:
+          label: Fundamental.Site:Main:settings
+          icon: 'icon-cog'
+  properties:
+    carouselItemImage:
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: 'Bild'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
+    carouselItemTitle:
+      type: string
+      ui:
+        label: 'Titel'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
+    carouselItemSubTitle:
+      type: string
+      ui:
+        label: 'Untertitel'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
+    link:
+      type: reference
+      ui:
+        reloadIfChanged: TRUE
+        label: 'Zielseite'
+        inspector:
+          group: 'settings'

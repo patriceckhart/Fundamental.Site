@@ -1,0 +1,46 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+<f:render section="carousel" />
+<f:section name="carousel">
+    <div>
+        <f:if condition="{carouselItemTitle} || {carouselItemSubTitle}">
+            <div class="slidercaption">
+                <f:if condition="{carouselItemTitle}"><h2>{carouselItemTitle}</h2></f:if>
+                <f:if condition="{carouselItemSubTitle}"><h3>{carouselItemSubTitle}</h3></f:if>
+            </div>
+        </f:if>
+        <f:if condition="{link}">
+            <f:then>
+                <f:if condition="{node.context.workspace.name} != 'live'">
+                    <f:then>
+                        <f:render section="carouselitem" />
+                    </f:then>
+                    <f:else>
+                        <neos:link.node node="{link}">
+                            <f:render section="carouselitem" />
+                        </neos:link.node>
+                    </f:else>
+                </f:if>
+            </f:then>
+            <f:else>
+                <f:render section="carouselitem" />
+            </f:else>
+        </f:if>
+    </div>
+</f:section>
+<f:section name="carouselitem">
+    <f:if condition="{carouselItemImage}">
+        <f:then>
+            <media:image image="{carouselItemImage}" maximumWidth="1920" maximumHeight="400" allowCropping="TRUE" alt="" />
+        </f:then>
+        <f:else>
+            <f:security.ifAccess privilegeTarget="Neos.Neos:Backend.GeneralAccess">
+                <f:if condition="{node.context.workspace.name} != 'live'">
+                    <img src="{f:uri.resource(package: 'Neos.Neos', path: 'Images/dummy-image.svg')}" title="AlpakaweltWeinmesser image" alt="AlpakaweltWeinmesser image" class="neos-handle" />
+                </f:if>
+            </f:security.ifAccess>
+        </f:else>
+    </f:if>
+</f:section>
+
+

@@ -1,0 +1,7 @@
+'Fundamental.Site:FacebookLikeButton':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    group: 'socialmedia'
+    label: 'Facebook Like Button'
+    icon: 'icon-facebook-official'

@@ -1,0 +1,18 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+<figure{f:if(condition: imageClassName, then: ' class="{imageClassName}"')}>
+<f:if condition="{fullwidth}">
+    <f:then>
+        <div class="fullwidthimage">
+            <f:render partial="SimpleImage" arguments="{_all}" />
+        </div>
+    </f:then>
+    <f:else>
+        <f:render partial="SimpleImage" arguments="{_all}" />
+    </f:else>
+</f:if>
+<f:if condition="{hasCaption}">
+    <figcaption>
+        {neos:contentElement.editable(property: 'caption', node: node)}
+    </figcaption>
+</f:if>
+</figure>

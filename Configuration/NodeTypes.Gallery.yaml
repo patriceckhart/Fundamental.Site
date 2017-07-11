@@ -1,0 +1,36 @@
+'Fundamental.Site:Gallery':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  ui:
+    label: i18n
+    group: 'fundamental'
+    icon: 'icon-camera'
+    inspector:
+      groups:
+        settings:
+          label: Fundamental.Site:Main:settings
+          icon: 'icon-cog'
+  properties:
+    assets:
+      type: array<Neos\Media\Domain\Model\Asset>
+      ui:
+        inspector:
+          group: 'settings'
+        label: i18n
+        reloadIfChanged: TRUE
+    lightbox:
+      type: boolean
+      defaultValue: TRUE
+      ui:
+        label: i18n
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
+    crop:
+      type: boolean
+      defaultValue: FALSE
+      ui:
+        label: i18n
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'

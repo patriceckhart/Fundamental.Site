@@ -1,0 +1,24 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+{namespace fusion=Neos\Fusion\ViewHelpers}
+<f:if condition="{containerBackgroundImage}">
+    <f:then>
+        <div class="fullwidth {containerHeight} <f:if condition="{headlineshdw}"> headlineshdw</f:if>" style="background:url({media:uri.image(image: containerBackgroundImage)}) no-repeat {backgroundPosition} {containerBackgroundColor}; -webkit-background-size: {backgroundSize}; -moz-background-size: {backgroundSize}; -o-background-size: {backgroundSize}; background-size: {backgroundSize};{f:if(condition: '{textInvert}', then: ' color:#FFFFFF;')}">
+    </f:then>
+    <f:else>
+        <f:if condition="{containerBackgroundColor}">
+            <f:then>
+                <div class="fullwidth {containerHeight} <f:if condition="{headlineshdw}"> headlineshdw</f:if>" style="background:{containerBackgroundColor};{f:if(condition: '{textInvert}', then: ' color:#FFFFFF;')}">
+            </f:then>
+            <f:else>
+                <div class="fullwidth {containerHeight} <f:if condition="{headlineshdw}"> headlineshdw</f:if>">
+            </f:else>
+        </f:if>
+    </f:else>
+</f:if>
+    <div class="row">
+        <f:if condition="{padding}"><f:then><div class="stage stagepadding"></f:then><f:else><div class="stage"></f:else></f:if>
+            {contentItems -> f:format.raw()}
+        </div>
+    </div>
+</div>

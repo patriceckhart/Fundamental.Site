@@ -1,0 +1,15 @@
+'Fundamental.Site:Accordion':
+  superTypes:
+    'Neos.Neos:Content': TRUE
+  childNodes:
+    accordionItems:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          '*': FALSE
+          'Fundamental.Site:AccordionItem': TRUE
+  ui:
+    label: i18n
+    group: 'fundamental'
+    icon: 'icon-list-alt'
+    inlineEditable: TRUE

@@ -1,0 +1,3 @@
+prototype(Site:FacebookLikeButton) < prototype(Content) {
+    templatePath = 'resource://Fundamental.Site/Private/Templates/FusionObjects/FacebookLikeButton.html'
+}

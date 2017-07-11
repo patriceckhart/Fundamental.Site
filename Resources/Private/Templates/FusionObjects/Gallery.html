@@ -1,0 +1,25 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+<div class="gallerywrapper">
+    <f:if condition="{assets}">
+        <f:then>
+            <ul class="gallery">
+                <f:for each="{assets}" as="asset">
+                    <f:if condition="{crop}">
+                        <f:then>
+                            <li style="line-height:150px; height:150px;"><f:if condition="{lightbox}"><a href="{media:uri.image(image: asset, maximumWidth:800, maximumHeight:600, allowCropping:FALSE)}" data-lightbox="roadtrip{node.identifier}"></f:if><media:image image="{asset}" maximumWidth="150" maximumHeight="150" allowCropping="FALSE" allowUpScaling="TRUE" alt="" /><f:if condition="{lightbox}"></a></f:if></li>
+                        </f:then>
+                        <f:else>
+                            <li><f:if condition="{lightbox}"><a href="{media:uri.image(image: asset, maximumWidth:800, maximumHeight:600, allowCropping:TRUE)}" data-lightbox="roadtrip{node.identifier}"></f:if><media:image image="{asset}" width="150" height="150" allowCropping="TRUE" allowUpScaling="TRUE" alt="" /><f:if condition="{lightbox}"></a></f:if></li>
+                        </f:else>
+                    </f:if>
+                </f:for>
+            </ul>
+        </f:then>
+        <f:else>
+            <f:if condition="{node.context.workspace.name} != 'live'">
+                <p>Keine Fotos angelegt.</p>
+            </f:if>
+        </f:else>
+    </f:if>
+</div>

@@ -1,0 +1,8 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+<div class="accordionitem">
+<div class="accordion">{neos:contentElement.editable(property: 'accordionTitle', tag: 'span')}</div>
+<div class="panel">
+    <div class="panelinner">{accordionItemContent -> f:format.raw()}</div>
+</div>
+</div>
