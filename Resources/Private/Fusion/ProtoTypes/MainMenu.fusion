@@ -1,0 +1,5 @@
+prototype(Site:MainMenu) < prototype(Menu) {
+    entryLevel = 1
+    templatePath = 'resource://Fundamental.Site/Private/Templates/FusionObjects/MainMenu.html'
+    maximumLevels = 3
+}
