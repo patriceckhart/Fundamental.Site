@@ -50,7 +50,7 @@ prototype(Neos.Neos:Page) {
             }
         }
 
-        fundamentalFooterJQuery = Neos.Fusion:Tag {
+        fundamentalJQuery = Neos.Fusion:Tag {
             @position = 'end'
             tagName = 'script'
             attributes {
