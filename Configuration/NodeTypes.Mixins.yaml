@@ -24,6 +24,7 @@
                 label: i18n
     fullwidth:
       type: boolean
+      defaultValue: FALSE
       ui:
         label: Fundamental.Site:Main:fullwidth
         reloadIfChanged: TRUE

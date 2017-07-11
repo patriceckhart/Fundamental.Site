@@ -3,7 +3,7 @@ prototype(Neos.Neos:Page) {
     head {
 
         fundamentalCFontAwesome = Neos.Fusion:Tag {
-            @position = 'start'
+            @position = 'before stylesheets'
             tagName = 'link'
             attributes {
                 media = 'all'
@@ -50,21 +50,21 @@ prototype(Neos.Neos:Page) {
             }
         }
 
-    }
-
-    fundamentalFooterJQuery = Neos.Fusion:Tag {
-        @position = 'end 97'
-        tagName = 'script'
-        attributes {
-            type = 'text/javascript'
-            src = Neos.Fusion:ResourceUri {
-                path = 'resource://Fundamental.Site/Public/JavaScript/vendor/jquery-1.11.2.min.js'
+        fundamentalFooterJQuery = Neos.Fusion:Tag {
+            @position = 'end'
+            tagName = 'script'
+            attributes {
+                type = 'text/javascript'
+                src = Neos.Fusion:ResourceUri {
+                    path = 'resource://Fundamental.Site/Public/JavaScript/vendor/jquery-1.11.2.min.js'
+                }
             }
         }
+
     }
 
     fundamentalFooterJs = Neos.Fusion:Tag {
-        @position = 'end 98'
+        @position = 'after body'
         tagName = 'script'
         attributes {
             type = 'text/javascript'
@@ -73,12 +73,6 @@ prototype(Neos.Neos:Page) {
             }
         }
     }
-
-    #body.javascripts.@position = 'start'
-
-    #javascripts.site = Neos.Fusion:Template {
-        #@position = 'end 99'
-    #}
 
 }
 
