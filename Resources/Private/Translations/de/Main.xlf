@@ -14,6 +14,9 @@
             <trans-unit id="fullwidth" xml:space="preserve">
 				<source>Volle Breite</source>
 			</trans-unit>
+            <trans-unit id="nosubmenu" xml:space="preserve">
+				<source>Keine Untermenüs anzeigen</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

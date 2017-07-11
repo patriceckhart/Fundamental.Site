@@ -1,0 +1,25 @@
+'Neos.NodeTypes:Page':
+  superTypes:
+    'Neos.Neos:Document': TRUE
+  ui:
+    inspector:
+      groups:
+        settings:
+          label: Fundamental.Site:Main:settings
+          icon: 'icon-cog'
+  properties:
+    'noSubMenu':
+      type: boolean
+      defaultValue: FALSE
+      ui:
+        label: Fundamental.Site:Main:nosubmenu
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'Fundamental.Site:Container': TRUE
+          '*': FALSE
