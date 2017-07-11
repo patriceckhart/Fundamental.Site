@@ -64,7 +64,7 @@ prototype(Neos.Neos:Page) {
     }
 
     fundamentalFooterJs = Neos.Fusion:Tag {
-        @position = 'after body'
+        @position = 'end'
         tagName = 'script'
         attributes {
             type = 'text/javascript'
