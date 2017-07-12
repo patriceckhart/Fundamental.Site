@@ -23,9 +23,9 @@ function winHeight() {
 function resize() {
     winwidth = $(window).width();
     if (winwidth <= 720) {
-        $('.responsivemenu .dropdown').css('display','none');
+        $('#menutoggle').css('display','none');
     } else {
-        $('.responsivemenu .dropdown').css('display','block');
+        $('#menutoggle').css('display','block');
         $('#toggle').removeClass('open');
     }
     //responsiveHeader();
@@ -43,10 +43,10 @@ $(window).load(function() {
 $(document).ready(function(){
     $('#toggle').click(function(){
         $(this).toggleClass('open');
-        if($('.responsivemenu .dropdown').css('display') == 'none') {
-            $('.responsivemenu .dropdown').css('display','block');
+        if($('#menutoggle').css('display') == 'none') {
+            $('#menutoggle').css('display','block');
         } else {
-            $('.responsivemenu .dropdown').css('display','none');
+            $('#menutoggle').css('display','none');
         }
     });
     //responsiveHeader();
