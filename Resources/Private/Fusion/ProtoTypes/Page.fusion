@@ -3,6 +3,7 @@ prototype(Neos.Neos:Page) {
     head {
 
         fundamentalMetaData = Neos.Fusion:Renderer {
+            @position = 'before stylesheets'
             type = 'Neos.Fusion:Value'
             element.value = 'Hallo'
         }
