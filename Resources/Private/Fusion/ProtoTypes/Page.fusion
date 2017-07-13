@@ -2,6 +2,11 @@ prototype(Neos.Neos:Page) {
 
     head {
 
+        fundamentalMetaData = Neos.Fusion:Renderer {
+            type = 'Neos.Fusion:Value'
+            element.value = 'Hallo'
+        }
+
         fundamentalCFontAwesome = Neos.Fusion:Tag {
             @position = 'before stylesheets'
             tagName = 'link'
