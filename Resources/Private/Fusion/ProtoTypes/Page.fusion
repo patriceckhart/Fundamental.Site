@@ -82,7 +82,7 @@ prototype(Neos.Neos:Page) {
     }
 
     fundamentalScrollToTop = Neos.Fusion:Renderer {
-        @position = 'start'
+        @position = 'after body'
         type = 'Neos.Fusion:Value'
         element.value = '<div class="topLink"><i class="fa fa-angle-up" aria-hidden="true"></i></div>'
     }

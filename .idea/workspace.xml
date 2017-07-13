@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/Resources/Private/Fusion/ProtoTypes/Page.fusion">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="910">
-              <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+              <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -516,12 +516,12 @@
       <workItem from="1499781026056" duration="21000" />
       <workItem from="1499885402971" duration="44000" />
       <workItem from="1499920004930" duration="196000" />
-      <workItem from="1499924304067" duration="627000" />
+      <workItem from="1499924304067" duration="722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25479000" />
+    <option name="totallyTimeSpent" value="25574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1346" extended-state="6" />
@@ -894,7 +894,7 @@
     <entry file="file://$PROJECT_DIR$/Resources/Private/Fusion/ProtoTypes/Page.fusion">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="910">
-          <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+          <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding />
         </state>
       </provider>
