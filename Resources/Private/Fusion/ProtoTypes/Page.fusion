@@ -5,7 +5,8 @@ prototype(Neos.Neos:Page) {
         fundamentalMetaData = Neos.Fusion:Renderer {
             @position = 'before stylesheets'
             type = 'Neos.Fusion:Value'
-            element.value = 'Hallo'
+            element.value = '<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">'
         }
 
         fundamentalCFontAwesome = Neos.Fusion:Tag {
@@ -78,6 +79,12 @@ prototype(Neos.Neos:Page) {
                 path = 'resource://Fundamental.Site/Public/JavaScript/app.js'
             }
         }
+    }
+
+    fundamentalScrollToTop = Neos.Fusion:Renderer {
+        @position = 'end'
+        type = 'Neos.Fusion:Value'
+        element.value = '<div class="topLink"><i class="fa fa-angle-up" aria-hidden="true"></i></div>'
     }
 
 }
