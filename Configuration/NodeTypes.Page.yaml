@@ -22,4 +22,5 @@
       constraints:
         nodeTypes:
           'Fundamental.Site:Container': TRUE
+          'Fundamental.Site:ImageContent': TRUE
           '*': FALSE

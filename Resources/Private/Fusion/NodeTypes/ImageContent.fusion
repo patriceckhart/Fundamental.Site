@@ -1,0 +1,5 @@
+prototype(Site:ImageContent) {
+    contentItems = ContentCollection {
+        nodePath = 'contentItems'
+    }
+}

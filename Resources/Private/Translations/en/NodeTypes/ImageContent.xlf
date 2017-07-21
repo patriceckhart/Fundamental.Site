@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="Fundamental.Site" source-language="en" datatype="plaintext">
+		<body>
+			<trans-unit id="ui.label" xml:space="preserve">
+				<source>Image and Content</source>
+			</trans-unit>
+            <trans-unit id="properties.containerBackgroundImage" xml:space="preserve">
+                <source>Backgroundimage</source>
+            </trans-unit>
+            <trans-unit id="properties.textInvert" xml:space="preserve">
+                <source>Invert Text</source>
+            </trans-unit>
+            <trans-unit id="properties.containerPosition" xml:space="preserve">
+                <source>Container Alignment</source>
+            </trans-unit>
+            <trans-unit id="properties.containerPosition.selectBoxEditor.values.left" xml:space="preserve">
+                <source>left</source>
+            </trans-unit>
+            <trans-unit id="properties.containerPosition.selectBoxEditor.values.right" xml:space="preserve">
+                <source>right</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

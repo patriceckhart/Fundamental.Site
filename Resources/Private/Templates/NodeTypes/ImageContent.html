@@ -1,0 +1,24 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+{namespace fusion=Neos\Fusion\ViewHelpers}
+<div class="imagecontent">
+    <f:if condition="{containerPosition}==left">
+        <f:then>
+            <f:render section="imageContentimage" />
+            <div class="imagecontentinner"><f:render section="imageContentcontent" /></div>
+        </f:then>
+        <f:else>
+            <div class="imagecontentinner"><f:render section="imageContentcontent" /></div>
+            <f:render section="imageContentimage" />
+        </f:else>
+    </f:if>
+</div>
+
+<f:section name="imageContentcontent">
+    {contentItems -> f:format.raw()}
+</f:section>
+<f:section name="imageContentimage">
+    <f:if condition="{containerBackgroundImage}">
+        <div class="imagecontentinner" style="background:url({media:uri.image(image: containerBackgroundImage)}) no-repeat {backgroundPosition} {containerBackgroundColor}; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;{f:if(condition: '{textInvert}', then: ' color:#FFFFFF;')}"></div>
+    </f:if>
+</f:section>
