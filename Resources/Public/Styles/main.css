@@ -66,6 +66,8 @@ a:hover { text-decoration: none; }
     outline:none;
 }
 .btn:hover { background: #30a0cb; }
+.btncenterwrapper { float:left; width:100%; text-align:center; }
+.btncenter { float:none; margin:0 auto; }
 
 /* Menu */
 .menu { float:left; }

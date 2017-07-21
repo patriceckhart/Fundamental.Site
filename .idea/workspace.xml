@@ -2,76 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079751c0-6d74-4ab8-8b18-b33ca264ec11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/ImageContent.fusion" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/ImageContent.xlf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/ImageContent.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/doc.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/doc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/jpg.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/jpg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/mp3.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/mp3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/mp4.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/mp4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/pdf.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/pdf.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/png.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/png.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/ppt.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/ppt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/rar.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/rar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/txt.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/txt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/xls.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/xls.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Images/Icons/zip.png" afterPath="$PROJECT_DIR$/Resources/Public/Images/Icons/zip.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Fundamental.Site.iml" afterPath="$PROJECT_DIR$/.idea/Fundamental.Site.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Accordion.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Accordion.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.AccordionItem.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.AccordionItem.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Button.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Button.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Card.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Card.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Carousel.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Carousel.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.CarouselItem.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.CarouselItem.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Container.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Container.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Divider.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Divider.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Download.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Download.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.FacebookLikeButton.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.FacebookLikeButton.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Gallery.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Gallery.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Mixins.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Mixins.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.Page.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.Page.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.YouTube.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.YouTube.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/Settings.yaml" afterPath="$PROJECT_DIR$/Configuration/Settings.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/Image.fusion" afterPath="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/Image.fusion" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Fusion/ProtoTypes/MainMenu.fusion" afterPath="$PROJECT_DIR$/Resources/Private/Fusion/ProtoTypes/MainMenu.fusion" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Fusion/ProtoTypes/Page.fusion" afterPath="$PROJECT_DIR$/Resources/Private/Fusion/ProtoTypes/Page.fusion" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/FusionObjects/MainMenu.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/FusionObjects/MainMenu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Image.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Image.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Partials/Image.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Partials/Image.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Partials/SimpleImage.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Partials/SimpleImage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/Main.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/Main.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Accordion.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Accordion.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/AccordionItem.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/AccordionItem.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Button.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Button.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Card.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Card.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Carousel.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Carousel.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/CarouselItem.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/CarouselItem.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Container.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Container.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Divider.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Divider.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Downloads.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Downloads.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Gallery.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/Gallery.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/YouTube.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/YouTube.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/Main.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/Main.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Accordion.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Accordion.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/AccordionItem.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/AccordionItem.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Button.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Button.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Card.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Card.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Carousel.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Carousel.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/CarouselItem.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/CarouselItem.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Container.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Container.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Divider.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Divider.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Downloads.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Downloads.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Gallery.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/Gallery.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/YouTube.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/YouTube.xlf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Styles/main.css" afterPath="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,38 +14,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="NodeTypes.ImageContent.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageContent.xlf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/ImageContent.xlf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageContent.xlf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/ImageContent.xlf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -136,6 +37,7 @@
       <find>image</find>
       <find>.responsivemenu .dropdown</find>
       <find>cookie</find>
+      <find>btn</find>
     </findStrings>
     <replaceStrings>
       <replace>containerHeight</replace>
@@ -197,11 +99,11 @@
         <option value="$PROJECT_DIR$/Resources/Public/Styles/backend.css" />
         <option value="$PROJECT_DIR$/Configuration/NodeTypes.Page.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/ImageContent.fusion" />
-        <option value="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" />
         <option value="$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/ImageContent.xlf" />
         <option value="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/ImageContent.xlf" />
+        <option value="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
       </list>
     </option>
   </component>
@@ -215,7 +117,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="1343" />
+    <option name="height" value="1344" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -235,6 +137,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -571,8 +475,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -703,23 +605,24 @@
       <workItem from="1499920004930" duration="196000" />
       <workItem from="1499924304067" duration="1617000" />
       <workItem from="1500222809979" duration="102000" />
-      <workItem from="1500620525311" duration="2445000" />
+      <workItem from="1500620525311" duration="3198000" />
+      <workItem from="1500627177073" duration="13000" />
+      <workItem from="1500628456775" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29016000" />
+    <option name="totallyTimeSpent" value="29848000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1343" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="2560" height="1344" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0929309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.117553614" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119142175" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15107913" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15095846" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -865,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Translations/de/Main.xlf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/FusionObjects/YouTube.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -894,13 +790,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/FusionObjects/Menu.html" />
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/FusionObjects/MainMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -912,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="156" lean-forward="false" selection-start-line="10" selection-start-column="118" selection-end-line="10" selection-end-column="156" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,17 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#f:if#0;n#f:section#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="197" column="83" lean-forward="true" selection-start-line="197" selection-start-column="83" selection-end-line="197" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +934,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/ImageContent.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1073,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,14 +955,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/ImageContent.xlf">
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Translations/de/Main.xlf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/FusionObjects/MainMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
           <folding />
         </state>
       </provider>
