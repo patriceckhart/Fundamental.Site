@@ -3,7 +3,7 @@
 {namespace fusion=Neos\Fusion\ViewHelpers}
 <f:if condition="{containerBackgroundImage}">
     <f:then>
-        <div class="fullwidth {containerHeight} <f:if condition="{headlineshdw}"> headlineshdw</f:if>" style="background:url({media:uri.image(image: containerBackgroundImage)}) no-repeat {backgroundPosition} {containerBackgroundColor}; -webkit-background-size: {backgroundSize}; -moz-background-size: {backgroundSize}; -o-background-size: {backgroundSize}; background-size: {backgroundSize};{f:if(condition: '{textInvert}', then: ' color:#FFFFFF;')}">
+        <div class="fullwidth {containerHeight}<f:if condition="{textInvert}"> textInvert</f:if>" style="background:url({media:uri.image(image: containerBackgroundImage)}) no-repeat {backgroundPosition} {containerBackgroundColor}; -webkit-background-size: {backgroundSize}; -moz-background-size: {backgroundSize}; -o-background-size: {backgroundSize}; background-size: {backgroundSize};{f:if(condition: '{textInvert}', then: ' color:#FFFFFF;')}">
     </f:then>
     <f:else>
         <f:if condition="{containerBackgroundColor}">
