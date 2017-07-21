@@ -8,7 +8,7 @@
     <f:else>
         <f:if condition="{containerBackgroundColor}">
             <f:then>
-                <div class="fullwidth {containerHeight} <f:if condition="{headlineshdw}"> headlineshdw</f:if>" style="background:{containerBackgroundColor};{f:if(condition: '{textInvert}', then: ' color:#FFFFFF;')}">
+                <div class="fullwidth {containerHeight}<f:if condition="{textInvert}"> textInvert</f:if>" style="background:{containerBackgroundColor};{f:if(condition: '{textInvert}', then: ' color:#FFFFFF;')}">
             </f:then>
             <f:else>
                 <div class="fullwidth {containerHeight} <f:if condition="{headlineshdw}"> headlineshdw</f:if>">
