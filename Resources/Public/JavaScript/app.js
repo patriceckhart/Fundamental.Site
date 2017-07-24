@@ -2,24 +2,14 @@ var iOS = false, p = navigator.platform;
 if( p === 'iPad' || p === 'iPhone' || p === 'iPod' ){
     iOS = true;
 }
-function winHeight() {
-    winheight = $(window).height();
-    $('.winheight').css('height',winheight+'px');
-    $('.winheight h1').css('margin-top',winheight/2.5+'px');
-
-    halfwinheight = $(window).height()/2;
-    $('.halfwinheight').css('height',halfwinheight+'px');
-    $('.halfwinheight h1').css('margin-top',halfwinheight/2.5+'px');
-}
 function resize() {
     winwidth = $(window).width();
-    if (winwidth <= 720) {
+    if (winwidth <= 920) {
         $('#menutoggle').css('display','none');
     } else {
         $('#menutoggle').css('display','block');
         $('#toggle').removeClass('open');
     }
-    winHeight();
 }
 if (iOS == true) {
 } else {
@@ -39,7 +29,6 @@ $(document).ready(function(){
             $('#menutoggle').css('display','none');
         }
     });
-    winHeight();
 });
 $('.topLink').click(function() {
     $("html, body").animate({ scrollTop: 0 }, "slow");
