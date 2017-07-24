@@ -157,6 +157,7 @@ p { margin: 1em 0px }
 .dropdown, .dropdown, .dropdown ul li { display:block; list-style: none; }
 .dropdown > li { float:left; }
 .dropdown > li > a, .dropdown > li > i { display:block; font-weight:700; text-decoration: none; color:#222; text-transform: uppercase; margin-left:1em; padding:0.5em; }
+.dropdown > li > a { margin-left:0; }
 .dropdown > li > i { font-weight:normal; cursor: pointer;  }
 .dropdown > li:hover > a, .dropdown > li:hover > i { color:#33C3F0; }
 .dropdown > li > ul { display:none; background:#FFF; }
