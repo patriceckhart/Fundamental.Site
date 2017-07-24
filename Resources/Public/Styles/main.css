@@ -193,7 +193,6 @@ body:after { display: none; }  body.lb-disable-scrolling { overflow: hidden; }  
     .responsivemenu .dropdown ul li a { border-top: 1px solid #CCC; }
     .responsivemenu .dropdown ul li ul li a { padding-left: 2em; padding-right: 2em; }
     .responsivemenu .dropdown nav ul ul, .responsivemenu .dropdown nav ul li:hover ul a { background: none; color: #222; }
-    .responsivemenu .dropdown { display:none; }
     .dropdown > li > ul, .dropdown > li > ul li > ul, .dropdown > li:hover > ul, .dropdown > li > ul li:hover, .dropdown > li > ul li:hover > ul { display:block; position: static; float:left; }
     .dds { -webkit-border-radius: none; -moz-border-radius: none; border-radius: none; -ms-filter: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; filter: none; }
     .dropdown > li i { display:none; }
