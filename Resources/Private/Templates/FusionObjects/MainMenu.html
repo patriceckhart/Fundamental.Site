@@ -6,7 +6,24 @@
         <nav>
             <ul class="dropdown">
                 <f:for each="{items}" as="item" iteration="menuItemIterator">
-                    <li><f:if condition="{item.subItems}"><f:then><neos:link.node node="{item.node}" class="{item.state}">{item.label}</neos:link.node></f:then><f:else><neos:link.node node="{item.node}" class="{item.state}">{item.label}</neos:link.node></f:else></f:if><f:if condition="{item.subItems}"><f:if condition="{item.node.properties.noSubMenu}"><f:then></f:then><f:else> <i class="fa fa-angle-down" aria-hidden="true"></i><f:render section="subList" arguments="{items: item.subItems}" /></f:else></f:if></f:if></li>
+                    <li>
+                        <f:if condition="{item.subItems}">
+                            <f:then>
+                                <f:if condition="{item.node.properties.noSubMenu}">
+                                    <f:then>
+                                        <neos:link.node node="{item.node}" class="{item.state}">{item.label}</neos:link.node>
+                                    </f:then>
+                                    <f:else>
+                                        <neos:link.node node="{item.node}" class="{item.state}">{item.label} <i class="fa fa-angle-down" aria-hidden="true"></i></neos:link.node>
+                                        <f:render section="subList" arguments="{items: item.subItems}" />
+                                    </f:else>
+                                </f:if>
+                            </f:then>
+                            <f:else>
+                            <neos:link.node node="{item.node}" class="{item.state}">{item.label}</neos:link.node>
+                            </f:else>
+                        </f:if>
+                    </li>
                 </f:for>
             </ul>
         </nav>
@@ -25,3 +42,4 @@
         <f:for each="{items}" as="item"><li><neos:link.node class="{item.state}" node="{item.node}">{item.label}</neos:link.node></li></f:for>
     </ul>
 </f:section>
+
