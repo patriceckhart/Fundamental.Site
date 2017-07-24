@@ -199,9 +199,9 @@ body:after { display: none; }  body.lb-disable-scrolling { overflow: hidden; }  
     .dropdown > li i { display:none; }
     .imagecontent { display:block; }
     .imagecontentinner { float:left; width:100%; display:block; min-height:300px; }
+    #toggle { display: block; }
 }
 @media only screen and (max-width: 720px) {
-    #toggle { display: block; }
     .card { width:100%; }
 }
 @media print {
