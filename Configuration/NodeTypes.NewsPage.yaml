@@ -1,0 +1,22 @@
+'Fundamental.Site:NewsPage':
+  ui:
+    label: 'News Artikel'
+    icon: 'icon-list-alt'
+  superTypes:
+    'Neos.NodeTypes:Page': TRUE
+  properties:
+    newsDate:
+      type: DateTime
+      defaultValue: FALSE
+      ui:
+        label: 'Datum'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
+    newsImage:
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: 'Bild (wird im Newsmenü verwendet)'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'

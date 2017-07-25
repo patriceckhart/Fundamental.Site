@@ -1,0 +1,32 @@
+'Fundamental.Site:NewsMenu':
+  superTypes:
+    'Neos.Neos:Plugin': TRUE
+  ui:
+    label: "News Menü"
+    group: fundamental
+    icon: 'icon-sitemap'
+  properties:
+    newsarticles:
+      type: string
+      ui:
+        label: 'Anzahl der Artikel'
+        defaultValue: TRUE
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'visibility'
+    nodeident:
+      type: string
+      ui:
+        label: 'Node Identifier'
+        defaultValue: TRUE
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'visibility'
+    pagebrowser:
+      type: boolean
+      defaultValue: TRUE
+      ui:
+        label: 'Seitenbrowser'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'visibility'

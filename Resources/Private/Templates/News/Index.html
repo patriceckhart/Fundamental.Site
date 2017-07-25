@@ -1,0 +1,38 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+<nav id="thingItems" class="newsmenu">
+    <f:for each="{items}" as="item" iteration="objIterator">
+        <div class="card">
+            <a href="/{pathsegment}/{item.properties.uriPathSegment}.html">
+                <media:image image="{item.properties.imageUri}" width="300" height="180" allowCropping="TRUE" alt="{item.label}" />
+                <div class="cardcontent">
+                    <h3>{item.label}</h3>
+                    {item.properties.subTitle}
+                </div>
+            </a>
+        </div>
+    </f:for>
+</nav>
+<f:if condition="{pageBrowser}">
+    <div class="pagebrowser">
+        <f:if condition="{pagination}">
+            <f:if condition="{pagination.prev}">
+                <f:link.action action="index" arguments="{page: pagination.prev}" class="paginator-page btn">
+                    <i class="fa fa-angle-left"></i>
+                </f:link.action>
+            </f:if>
+
+            <f:for each="{pagination.pages}" as="item">
+                <f:link.action action="index" arguments="{page: item.text}"
+                               class="paginator-page btn {f:if(condition: '{0:pagination.current} == {0:item.text}',
+then: ' active', else: '')}">
+                    {item.text}</f:link.action>
+            </f:for>
+            <f:if condition="{pagination.next}">
+                <f:link.action action="index" arguments="{page:pagination.next}" class="next btn">
+                    <i class="fa fa-angle-right"></i>
+                </f:link.action>
+            </f:if>
+        </f:if>
+    </div>
+</f:if>

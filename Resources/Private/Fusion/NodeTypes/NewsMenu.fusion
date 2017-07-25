@@ -1,0 +1,9 @@
+prototype(Site:NewsMenu) < prototype(Neos.Neos:Plugin)
+prototype(Site:NewsMenu) {
+    package = 'Fundamental.Site'
+    controller = 'News'
+    action = 'index'
+    newsarticles = ${q(node).property('newsarticles')}
+    nodeident = ${q(node).property('nodeident')}
+    pagebrowser = ${q(node).property('pagebrowser')}
+}
