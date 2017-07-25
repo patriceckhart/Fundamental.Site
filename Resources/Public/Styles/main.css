@@ -58,6 +58,7 @@ p { margin: 1em 0px }
 }
 .input { float: left; width: 100%; margin-bottom: 1em; }
 .help-inline { float:left; width:100%; color:red; margin-top:0.5em; font-size:0.9em; }
+.form-navigation ul, .form-navigation ul li { display:block; margin:0; padding:0; }
 
 /* Buttons */
 .btn { border: 0; background: #33C3F0; color:#FFF; padding: 1em; padding-left:2em; padding-right:2em; text-transform: uppercase; font-weight:bold; font-size:0.8em; text-decoration: none; text-align: center;
