@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079751c0-6d74-4ab8-8b18-b33ca264ec11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Configuration/Policy.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Configuration/Routes.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Policy.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Policy.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Configuration/Policy.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Routes.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Configuration/Routes.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -105,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Configuration/NodeTypes.CarouselItem.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/CarouselItem.xlf" />
         <option value="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/CarouselItem.xlf" />
         <option value="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/CarouselItem.fusion" />
@@ -156,6 +165,7 @@
         <option value="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/NewsMenu.fusion" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/News/Index.html" />
         <option value="$PROJECT_DIR$/Configuration/Policy.yaml" />
+        <option value="$PROJECT_DIR$/Configuration/Routes.yaml" />
       </list>
     </option>
   </component>
@@ -644,12 +654,12 @@
       <workItem from="1500620525311" duration="3198000" />
       <workItem from="1500627177073" duration="13000" />
       <workItem from="1500628456775" duration="66000" />
-      <workItem from="1500957364634" duration="498000" />
+      <workItem from="1500957364634" duration="561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30346000" />
+    <option name="totallyTimeSpent" value="30409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1344" extended-state="6" />
@@ -690,7 +700,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classes/Controller/StandardController.php" />
     <entry file="file://$PROJECT_DIR$/Resources/Private/Fusion/FusionObjects/MainMenu.html" />
     <entry file="file://$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/Accordion.fusion">
       <provider selected="true" editor-type-id="text-editor">
@@ -1036,6 +1045,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/Routes.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding />
         </state>
       </provider>
