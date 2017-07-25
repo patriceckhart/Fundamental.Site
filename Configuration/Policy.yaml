@@ -1,0 +1,11 @@
+privilegeTargets:
+  Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege:
+    'Fundamental.Site:NewsControllerActions':
+      matcher: 'method(Fundamental\Site\Controller\NewsController->.*Action())'
+
+roles:
+  'Neos.Flow:Everybody':
+    privileges:
+      -
+        privilegeTarget: 'Fundamental.Site:NewsControllerActions'
+        permission: GRANT
