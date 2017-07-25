@@ -13,6 +13,13 @@
         reloadIfChanged: TRUE
         inspector:
           group: 'settings'
+    subTitle:
+      type: string
+      ui:
+        label: 'Untertitel'
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
     newsImage:
       type: 'Neos\Media\Domain\Model\ImageInterface'
       ui:
