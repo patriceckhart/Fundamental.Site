@@ -4,7 +4,7 @@
     <f:for each="{items}" as="item" iteration="objIterator">
         <div class="card">
             <a href="/{pathsegment}/{item.properties.uriPathSegment}.html">
-                <media:image image="{item.properties.imageUri}" width="300" height="180" allowCropping="TRUE" alt="{item.label}" />
+                <media:image image="{item.properties.newsImage}" width="300" height="180" allowCropping="TRUE" alt="{item.label}" />
                 <div class="cardcontent">
                     <h3>{item.label}</h3>
                     {item.properties.subTitle}
