@@ -19,6 +19,6 @@
 </f:section>
 <f:section name="imageContentimage">
     <f:if condition="{containerBackgroundImage}">
-        <div class="imagecontentinner" style="background:url({media:uri.image(image: containerBackgroundImage)}) no-repeat {backgroundPosition} {containerBackgroundColor}; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;{f:if(condition: '{textInvert}', then: ' color:#FFFFFF;')}"></div>
+        <div class="imagecontentinner" style="background:url({media:uri.image(image: containerBackgroundImage)}) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
     </f:if>
 </f:section>
