@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079751c0-6d74-4ab8-8b18-b33ca264ec11" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml" afterPath="$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +93,6 @@
         <option value="$PROJECT_DIR$/Resources/Public/Styles/backend.css" />
         <option value="$PROJECT_DIR$/Configuration/NodeTypes.Page.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/ImageContent.fusion" />
-        <option value="$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/ImageContent.xlf" />
         <option value="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/ImageContent.xlf" />
         <option value="$PROJECT_DIR$/Configuration/NodeTypes.NewsMenu.yaml" />
@@ -105,6 +105,7 @@
         <option value="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Container.html" />
         <option value="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
         <option value="$PROJECT_DIR$/Configuration/Settings.yaml" />
+        <option value="$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" />
       </list>
     </option>
@@ -139,8 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -491,6 +490,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,17 +632,18 @@
       <workItem from="1500972081301" duration="13000" />
       <workItem from="1500972169037" duration="13000" />
       <workItem from="1500986632154" duration="40000" />
+      <workItem from="1500986796741" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33322000" />
+    <option name="totallyTimeSpent" value="33374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1344" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0929309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12470215" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12549643" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -879,13 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/ImageContent.xlf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1028,13 +1023,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="249" lean-forward="false" selection-start-line="21" selection-start-column="249" selection-end-line="21" selection-end-column="249" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#f:if#0;n#f:section#1;n#!!top" expanded="true" />
-          </folding>
+          <caret line="21" column="133" lean-forward="false" selection-start-line="21" selection-start-column="133" selection-end-line="21" selection-end-column="133" />
+          <folding />
         </state>
       </provider>
     </entry>
