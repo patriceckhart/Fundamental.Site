@@ -41,12 +41,14 @@ class NewsController extends ActionController
 
         $context = $this->contextFactory->create(array('workspaceName' => $workspaceName));
 
-        if ($nodeident=="") {
-            //Standardnode
+        /*if ($nodeident=="") {
+
             $node = $context->getNodeByIdentifier('b557193f-e818-4792-b2cc-051795d04d25');
         } else {
             $node = $context->getNodeByIdentifier($nodeident);
-        }
+        }*/
+
+        $node = $context->getNodeByIdentifier($nodeident);
 
         $articles = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->get();
 
