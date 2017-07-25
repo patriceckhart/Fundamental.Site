@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079751c0-6d74-4ab8-8b18-b33ca264ec11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Container.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Container.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Styles/main.css" afterPath="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +13,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="182" column="78" lean-forward="true" selection-start-line="182" selection-start-column="78" selection-end-line="182" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -97,7 +107,6 @@
         <option value="$PROJECT_DIR$/Configuration/NodeTypes.ImageContent.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/ImageContent.xlf" />
         <option value="$PROJECT_DIR$/Resources/Private/Translations/de/NodeTypes/ImageContent.xlf" />
-        <option value="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
         <option value="$PROJECT_DIR$/Configuration/NodeTypes.NewsMenu.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/NewsMenu.fusion" />
         <option value="$PROJECT_DIR$/Configuration/Policy.yaml" />
@@ -106,6 +115,7 @@
         <option value="$PROJECT_DIR$/Configuration/NodeTypes.NewsPage.yaml" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/News/Index.html" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/Container.html" />
+        <option value="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
       </list>
     </option>
   </component>
@@ -625,18 +635,18 @@
       <workItem from="1500627177073" duration="13000" />
       <workItem from="1500628456775" duration="66000" />
       <workItem from="1500957364634" duration="2161000" />
-      <workItem from="1500966534808" duration="309000" />
+      <workItem from="1500966534808" duration="757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32318000" />
+    <option name="totallyTimeSpent" value="32766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1344" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0929309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120730735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120730735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -909,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Fusion/ProtoTypes/Page.fusion">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1024,6 +1027,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="386" lean-forward="false" selection-start-line="5" selection-start-column="386" selection-end-line="5" selection-end-column="386" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="182" column="78" lean-forward="true" selection-start-line="182" selection-start-column="78" selection-end-line="182" selection-end-column="78" />
           <folding />
         </state>
       </provider>
