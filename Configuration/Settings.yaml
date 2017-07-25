@@ -32,6 +32,3 @@ Neos:
     fusion:
       autoInclude:
         Fundamental.Site: true
-  Flow:
-    i18n:
-      defaultLocale: de
