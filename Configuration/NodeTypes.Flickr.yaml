@@ -16,7 +16,7 @@
       'UserFeed':
         label: 'Fundamental.Site:NodeTypes.Flickr:options.pluginViews.userFeed'
         controllerActions:
-          'Neos\Demo\Controller\FlickrController': ['userStream']
+          'Fundamental\Site\Controller\FlickrController': ['userStream']
   properties:
     'tags':
       type: string
