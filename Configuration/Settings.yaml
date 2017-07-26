@@ -1,9 +1,6 @@
 Fundamental:
   Site:
     templateRootPath: 'resource://Fundamental.Site/Private/Templates/'
-    flickr:
-      tagStreamUriPattern: 'http://api.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=1&tags=%s'
-      userStreamUriPattern: 'http://api.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=1&id=%s'
 Neos:
   Neos:
     userInterface:
