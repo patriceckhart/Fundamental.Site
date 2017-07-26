@@ -1,4 +1,4 @@
-/* Accordion */
 .accordion { float:left; }
 .panel { max-height: auto; overflow: visible; }
 #cookie-bar { display:none; }
+.row { width:100%; max-width:1200px; }

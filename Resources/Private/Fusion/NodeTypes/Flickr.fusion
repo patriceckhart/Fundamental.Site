@@ -1,0 +1,5 @@
+prototype(Site:Flickr) < prototype(Neos.Neos:Plugin) {
+    package = 'Fundamental.Site'
+    controller = 'Flickr'
+    action = 'tagStream'
+}
