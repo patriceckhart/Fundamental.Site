@@ -5,17 +5,17 @@
     <f:if condition="{containerPosition}==left">
         <f:then>
             <f:render section="imageContentimage" />
-            <div class="imagecontentinner"><f:render section="imageContentcontent" /></div>
+            <div class="imagecontentinner"><f:render section="imageContentcontent" arguments="{position: 'floatleft'}" /></div>
         </f:then>
         <f:else>
-            <div class="imagecontentinner"><f:render section="imageContentcontent" /></div>
+            <div class="imagecontentinner"><f:render section="imageContentcontent" arguments="{position: 'floatright'}" /></div>
             <f:render section="imageContentimage" />
         </f:else>
     </f:if>
 </div>
 
 <f:section name="imageContentcontent">
-    <div class="imagecontentwrap">{contentItems -> f:format.raw()}</div>
+    <div class="imagecontentwrap {position}">{contentItems -> f:format.raw()}</div>
 </f:section>
 <f:section name="imageContentimage">
     <f:if condition="{containerBackgroundImage}">
