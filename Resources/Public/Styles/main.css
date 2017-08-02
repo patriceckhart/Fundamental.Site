@@ -69,7 +69,7 @@ p { margin: 1em 0px }
 }
 .btn:hover { background: #30a0cb; }
 .btncenterwrapper { float:left; width:100%; text-align:center; }
-.btncenter { float:none; margin:0 auto; }
+.btncenter { float:none; margin:0 auto; display:inline-block; }
 
 /* Menu */
 .menu { float:left; }
