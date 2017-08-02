@@ -28,7 +28,7 @@ prototype(Neos.Neos:Page) {
                 media = 'all'
                 rel = 'stylesheet'
                 href = Neos.Fusion:ResourceUri {
-                    path = 'resource://Fundamental.Site/Public/Styles/app.css'
+                    path = 'resource://Fundamental.Site/Public/Styles/fundamental.min.css'
                 }
             }
         }
@@ -76,7 +76,7 @@ prototype(Neos.Neos:Page) {
         attributes {
             type = 'text/javascript'
             src = Neos.Fusion:ResourceUri {
-                path = 'resource://Fundamental.Site/Public/JavaScript/app.js'
+                path = 'resource://Fundamental.Site/Public/JavaScript/fundamental.min.js'
             }
         }
     }
