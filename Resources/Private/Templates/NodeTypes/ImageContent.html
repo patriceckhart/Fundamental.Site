@@ -15,7 +15,8 @@
 </div>
 
 <f:section name="imageContentcontent">
-    <div class="imagecontentwrap">{contentItems -> f:format.raw()}</div>
+    <f:if condition="{containerPosition}==left"><f:then><div class="imagecontentwrap floatleft"></f:then><f:else><div class="imagecontentwrap floatright"></f:else></f:if>
+    {contentItems -> f:format.raw()}</div>
 </f:section>
 <f:section name="imageContentimage">
     <f:if condition="{containerBackgroundImage}">
