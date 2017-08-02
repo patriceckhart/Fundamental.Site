@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079751c0-6d74-4ab8-8b18-b33ca264ec11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="ImageContent.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#f:if#0;n#f:section#1;n#!!top" expanded="true" />
               </folding>
@@ -746,12 +745,12 @@
       <workItem from="1501648721539" duration="32000" />
       <workItem from="1501648784759" duration="49000" />
       <workItem from="1501651083798" duration="555000" />
-      <workItem from="1501652981265" duration="121000" />
+      <workItem from="1501652981265" duration="222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37632000" />
+    <option name="totallyTimeSpent" value="37733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1344" extended-state="6" />
@@ -1108,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#0;n#f:if#0;n#f:section#1;n#!!top" expanded="true" />
           </folding>
