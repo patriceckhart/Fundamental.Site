@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079751c0-6d74-4ab8-8b18-b33ca264ec11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css" afterPath="$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +14,10 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>height</find>
-      <find>Website</find>
       <find>visibility</find>
       <find>Image</find>
       <find>fullwidth</find>
@@ -47,6 +46,8 @@
       <find>imagecontentinner</find>
       <find>.btn</find>
       <find>floatcenter</find>
+      <find>margin:0 auto</find>
+      <find>imagecontentwrap</find>
     </findStrings>
     <replaceStrings>
       <replace>containerHeight</replace>
@@ -112,11 +113,11 @@
         <option value="$PROJECT_DIR$/Resources/Private/Templates/FusionObjects/CarouselItem.html" />
         <option value="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
         <option value="$PROJECT_DIR$/Resources/Public/Styles/app.css" />
-        <option value="$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css" />
         <option value="$PROJECT_DIR$/Resources/Public/Styles/fundamental.css" />
         <option value="$PROJECT_DIR$/Resources/Public/JavaScript/fundamental.min.js" />
         <option value="$PROJECT_DIR$/Resources/Private/Fusion/ProtoTypes/Page.fusion" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/NodeTypes/ImageContent.html" />
+        <option value="$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css" />
       </list>
     </option>
   </component>
@@ -151,7 +152,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -580,6 +580,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -732,18 +733,19 @@
       <workItem from="1501648721539" duration="32000" />
       <workItem from="1501648784759" duration="49000" />
       <workItem from="1501651083798" duration="555000" />
-      <workItem from="1501652981265" duration="862000" />
+      <workItem from="1501652981265" duration="1095000" />
+      <workItem from="1501655199590" duration="57000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38373000" />
+    <option name="totallyTimeSpent" value="38663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1344" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18571429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12946783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1302621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1012,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="76" lean-forward="true" selection-start-line="0" selection-start-column="76" selection-end-line="0" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/fundamental.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
@@ -1032,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="777" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="75899" lean-forward="false" selection-start-line="0" selection-start-column="75899" selection-end-line="0" selection-end-column="75899" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="55" lean-forward="true" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,6 +1090,14 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#f:if#0;n#f:section#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="0" column="15081" lean-forward="false" selection-start-line="0" selection-start-column="15081" selection-end-line="0" selection-end-column="15081" />
+          <folding />
         </state>
       </provider>
     </entry>
