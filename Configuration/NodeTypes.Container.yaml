@@ -21,7 +21,7 @@
   properties:
     containerBackgroundColor:
       type: string
-      defaultValue: '#FFF'
+      defaultValue: ''
       ui:
         label: i18n
         reloadIfChanged: TRUE
