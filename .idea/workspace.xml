@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079751c0-6d74-4ab8-8b18-b33ca264ec11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css" afterPath="$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Public/Styles/main.css" afterPath="$PROJECT_DIR$/Resources/Public/Styles/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="847">
-              <caret line="0" column="21537" lean-forward="false" selection-start-line="0" selection-start-column="21537" selection-end-line="0" selection-end-column="21537" />
+              <caret line="0" column="21512" lean-forward="false" selection-start-line="0" selection-start-column="21512" selection-end-line="0" selection-end-column="21512" />
               <folding />
             </state>
           </provider>
@@ -425,12 +423,12 @@
       <workItem from="1501664253618" duration="11000" />
       <workItem from="1502345817377" duration="690000" />
       <workItem from="1502350426498" duration="664000" />
-      <workItem from="1502353224620" duration="160000" />
+      <workItem from="1502353224620" duration="224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40188000" />
+    <option name="totallyTimeSpent" value="40252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1344" extended-state="0" />
@@ -831,7 +829,7 @@
     <entry file="file://$PROJECT_DIR$/Resources/Public/Styles/fundamental.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="847">
-          <caret line="0" column="21537" lean-forward="false" selection-start-line="0" selection-start-column="21537" selection-end-line="0" selection-end-column="21537" />
+          <caret line="0" column="21512" lean-forward="false" selection-start-line="0" selection-start-column="21512" selection-end-line="0" selection-end-column="21512" />
           <folding />
         </state>
       </provider>
