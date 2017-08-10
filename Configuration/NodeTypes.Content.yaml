@@ -1,4 +1,10 @@
 'Neos.Neos:Content':
+  ui:
+    inspector:
+      groups:
+        settings:
+          label: Fundamental.Site:Main:settings
+          icon: 'icon-cog'
   properties:
     addClass:
       type: string
