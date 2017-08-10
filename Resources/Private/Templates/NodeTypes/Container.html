@@ -1,6 +1,7 @@
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace media=Neos\Media\ViewHelpers}
 {namespace fusion=Neos\Fusion\ViewHelpers}
+<div{attributes -> f:format.raw()}>
 <f:if condition="{containerBackgroundImage}">
     <f:then>
         <div class="fullwidth {containerHeight}<f:if condition="{textInvert}"> textInvert</f:if>" style="background:url({media:uri.image(image: containerBackgroundImage)}) no-repeat {backgroundPosition} {containerBackgroundColor}; -webkit-background-size: {backgroundSize}; -moz-background-size: {backgroundSize}; -o-background-size: {backgroundSize}; background-size: {backgroundSize};">
@@ -21,4 +22,5 @@
             {contentItems -> f:format.raw()}
         </div>
     </div>
+</div>
 </div>
