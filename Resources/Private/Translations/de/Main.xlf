@@ -20,6 +20,9 @@
             <trans-unit id="choosefiles" xml:space="preserve">
 				<source>Bitte rechts im Inspector Dateien auswählen</source>
 			</trans-unit>
+            <trans-unit id="addClass" xml:space="preserve">
+				<source>CSS-Klasse</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

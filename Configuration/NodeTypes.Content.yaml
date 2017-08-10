@@ -1,0 +1,9 @@
+'Neos.Neos:Content':
+  properties:
+    addClass:
+      type: string
+      ui:
+        label: Fundamental.Site:Main:addClass
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
