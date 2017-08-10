@@ -1,6 +1,7 @@
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace fusion=Neos\Fusion\ViewHelpers}
 {namespace media=Neos\Media\ViewHelpers}
+<div{attributes -> f:format.raw()}>
 <div class="neos-contentcollection">
     <f:if condition="{assets}">
         <f:then>
@@ -11,6 +12,7 @@
     <a href="{f:uri.resource(resource: asset.resource)}" target="_blank"><f:if condition="{asset.title}"><f:then><strong>{asset.title}</strong></f:then><f:else><strong>{asset.resource.filename}</strong></f:else></f:if></a><br />
     <f:if condition="{asset.caption}">{asset.caption}<br /></f:if>
     {f:translate(id: 'content.filesize', package: 'Fundamental.Site', source: 'NodeTypes/Downloads')}: <f:format.bytes>{asset.resource.filesize}</f:format.bytes>
+</div>
 </div>
 </li>
 </f:for>

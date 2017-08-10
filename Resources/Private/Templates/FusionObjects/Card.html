@@ -2,6 +2,7 @@
 {namespace media=Neos\Media\ViewHelpers}
 <f:render section="card" />
 <f:section name="card">
+    <div{attributes -> f:format.raw()}>
     <div class="card">
         <f:if condition="{link}">
             <f:then>
@@ -22,6 +23,7 @@
                 </section>
             </f:else>
         </f:if>
+    </div>
     </div>
 </f:section>
 <f:section name="cardContent">

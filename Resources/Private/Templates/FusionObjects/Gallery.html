@@ -1,5 +1,6 @@
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace media=Neos\Media\ViewHelpers}
+<div{attributes -> f:format.raw()}>
 <div class="gallerywrapper">
     <f:if condition="{assets}">
         <f:then>
@@ -24,4 +25,5 @@
             </f:if>
         </f:else>
     </f:if>
+</div>
 </div>

@@ -1,6 +1,8 @@
 {namespace neos=Neos\Neos\ViewHelpers}
+<div{attributes -> f:format.raw()}>
 <div class="neos-contentcollection{f:if(condition: '{center}', then: ' btncenterwrapper')}">
     <neos:link.node node="{link}" class="btn{f:if(condition: '{center}', then: ' btncenter')}">
         {btntext}
     </neos:link.node>
+</div>
 </div>

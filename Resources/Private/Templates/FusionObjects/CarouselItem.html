@@ -2,6 +2,7 @@
 {namespace media=Neos\Media\ViewHelpers}
 <f:render section="carousel" />
 <f:section name="carousel">
+    <div{attributes -> f:format.raw()}>
     <div>
         <f:if condition="{carouselItemTitle} || {carouselItemSubTitle}">
             <div class="slidercaption">
@@ -26,6 +27,7 @@
                 <f:render section="carouselitem" />
             </f:else>
         </f:if>
+    </div>
     </div>
 </f:section>
 <f:section name="carouselitem">

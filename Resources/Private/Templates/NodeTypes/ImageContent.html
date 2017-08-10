@@ -1,6 +1,7 @@
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace media=Neos\Media\ViewHelpers}
 {namespace fusion=Neos\Fusion\ViewHelpers}
+<div{attributes -> f:format.raw()}>
 <div class="imagecontent">
     <f:if condition="{containerPosition}==left">
         <f:then>
@@ -12,6 +13,7 @@
             <f:render section="imageContentimage" />
         </f:else>
     </f:if>
+</div>
 </div>
 
 <f:section name="imageContentcontent">

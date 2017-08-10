@@ -1,5 +1,6 @@
 {namespace neos=Neos\Neos\ViewHelpers}
 {namespace media=Neos\Media\ViewHelpers}
+<div{attributes -> f:format.raw()}>
 <div class="neos-contentcollection">
 <nav id="thingItems" class="newsmenu">
     <f:for each="{items}" as="item" iteration="objIterator">
@@ -37,4 +38,5 @@ then: ' active', else: '')}">
         </f:if>
     </div>
 </f:if>
+</div>
 </div>
