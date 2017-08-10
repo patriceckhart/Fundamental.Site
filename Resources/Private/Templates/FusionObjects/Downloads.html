@@ -13,10 +13,10 @@
     <f:if condition="{asset.caption}">{asset.caption}<br /></f:if>
     {f:translate(id: 'content.filesize', package: 'Fundamental.Site', source: 'NodeTypes/Downloads')}: <f:format.bytes>{asset.resource.filesize}</f:format.bytes>
 </div>
-</div>
 </li>
 </f:for>
 </ul>
+</div>
 </f:then>
 <f:else>
         <f:if condition="{node.context.workspace.name} != 'live'">
