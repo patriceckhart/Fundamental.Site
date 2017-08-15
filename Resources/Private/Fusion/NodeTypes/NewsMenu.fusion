@@ -6,4 +6,6 @@ prototype(Site:NewsMenu) {
     newsarticles = ${q(node).property('newsarticles')}
     nodeident = ${q(node).property('nodeident')}
     pagebrowser = ${q(node).property('pagebrowser')}
+    showDate = ${q(node).property('showDate')}
+    attributes = ${q(node).property('addClass')}
 }

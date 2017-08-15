@@ -23,6 +23,9 @@
             <trans-unit id="addClass" xml:space="preserve">
 				<source>CSS-Klasse</source>
 			</trans-unit>
+            <trans-unit id="chooseIdent" xml:space="preserve">
+				<source>Wählen Sie einen Startpunkt im Inspektor</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

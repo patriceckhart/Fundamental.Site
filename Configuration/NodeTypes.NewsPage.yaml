@@ -1,6 +1,6 @@
 'Fundamental.Site:NewsPage':
   ui:
-    label: 'News Artikel'
+    label: i18n
     icon: 'icon-list-alt'
   superTypes:
     'Neos.NodeTypes:Page': TRUE
@@ -9,21 +9,21 @@
       type: DateTime
       defaultValue: FALSE
       ui:
-        label: 'Datum'
+        label: i18n
         reloadIfChanged: TRUE
         inspector:
           group: 'settings'
     subTitle:
       type: string
       ui:
-        label: 'Untertitel'
+        label: i18n
         reloadIfChanged: TRUE
         inspector:
           group: 'settings'
     newsImage:
       type: 'Neos\Media\Domain\Model\ImageInterface'
       ui:
-        label: 'Bild (wird im Newsmenü verwendet)'
+        label: i18n
         reloadIfChanged: TRUE
         inspector:
           group: 'settings'

@@ -1,42 +1,51 @@
 {namespace neos=Neos\Neos\ViewHelpers}
+{namespace fusion=Neos\Fusion\ViewHelpers}
 {namespace media=Neos\Media\ViewHelpers}
 <div{attributes -> f:format.raw()}>
-<div class="neos-contentcollection">
-<nav id="thingItems" class="newsmenu">
-    <f:for each="{items}" as="item" iteration="objIterator">
-        <div class="card">
-            <a href="/{pathsegment}/{item.properties.uriPathSegment}.html">
-                <media:image image="{item.properties.newsImage}" width="300" height="180" allowCropping="TRUE" alt="{item.label}" />
-                <div class="cardcontent">
-                    <h3>{item.label}</h3>
-                    {item.properties.subTitle}
+<f:if condition="{noIdent}==1">
+    <f:then>
+        <ul{attributes -> f:format.raw()}>
+        <li>{f:translate(id: 'chooseIdent', package: 'Fundamental.Site', source: 'Main')}</li>
+        </ul>
+    </f:then>
+    <f:else>
+        <nav id="thingItems" class="newsmenu">
+            <f:for each="{items}" as="item" iteration="objIterator">
+                <div class="card">
+                    <a href="/{pathsegment}/{item.properties.uriPathSegment}.html">
+                        <media:image image="{item.properties.newsImage}" width="300" height="180" allowCropping="TRUE" alt="{item.label}" />
+                        <div class="cardcontent">
+                            <f:if condition="{showDate}==1"><small class="news-date"><f:format.date format="d.m.Y">{item.properties.newsDate}</f:format.date></small></f:if>
+                            <h3>{item.label}</h3>
+                            <f:if condition="{item.properties.subTitle}"><span class="news-subtitle">{item.properties.subTitle}</span></f:if>
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-    </f:for>
-</nav>
-<f:if condition="{pageBrowser}">
-    <div class="pagebrowser">
-        <f:if condition="{pagination}">
-            <f:if condition="{pagination.prev}">
-                <f:link.action action="index" arguments="{page: pagination.prev}" class="paginator-page btn">
-                    <i class="fa fa-angle-left"></i>
-                </f:link.action>
-            </f:if>
-
-            <f:for each="{pagination.pages}" as="item">
-                <f:link.action action="index" arguments="{page: item.text}"
-                               class="paginator-page btn {f:if(condition: '{0:pagination.current} == {0:item.text}',
-then: ' active', else: '')}">
-                    {item.text}</f:link.action>
             </f:for>
-            <f:if condition="{pagination.next}">
-                <f:link.action action="index" arguments="{page:pagination.next}" class="next btn">
-                    <i class="fa fa-angle-right"></i>
-                </f:link.action>
-            </f:if>
+        </nav>
+        <f:if condition="{pageBrowser}">
+            <div class="pagebrowser">
+                <f:if condition="{pagination}">
+                    <f:if condition="{pagination.prev}">
+                        <f:link.action action="index" arguments="{page: pagination.prev}" class="paginator-page btn">
+                            <i class="fa fa-angle-left"></i>
+                        </f:link.action>
+                    </f:if>
+
+                    <f:for each="{pagination.pages}" as="item">
+                        <f:link.action action="index" arguments="{page: item.text}"
+                                       class="paginator-page btn {f:if(condition: '{0:pagination.current} == {0:item.text}',
+then: ' active', else: '')}">
+                            {item.text}</f:link.action>
+                    </f:for>
+                    <f:if condition="{pagination.next}">
+                        <f:link.action action="index" arguments="{page:pagination.next}" class="next btn">
+                            <i class="fa fa-angle-right"></i>
+                        </f:link.action>
+                    </f:if>
+                </f:if>
+            </div>
         </f:if>
-    </div>
+    </f:else>
 </f:if>
-</div>
 </div>

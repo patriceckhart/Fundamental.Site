@@ -2,31 +2,43 @@
   superTypes:
     'Neos.Neos:Plugin': TRUE
   ui:
-    label: "News Menü"
+    label: i18n
     group: fundamental
     icon: 'icon-sitemap'
+    inspector:
+      groups:
+        settings:
+          label: Fundamental.Site:Main:settings
+          icon: 'icon-cog'
   properties:
     newsarticles:
       type: string
       ui:
-        label: 'Anzahl der Artikel'
+        label: i18n
         defaultValue: TRUE
         reloadIfChanged: TRUE
         inspector:
-          group: 'visibility'
+          group: 'settings'
     nodeident:
-      type: string
+      type: reference
       ui:
-        label: 'Node Identifier'
-        defaultValue: TRUE
         reloadIfChanged: TRUE
+        label: i18n
         inspector:
-          group: 'visibility'
+          group: 'settings'
     pagebrowser:
       type: boolean
       defaultValue: TRUE
       ui:
-        label: 'Seitenbrowser'
+        label: i18n
         reloadIfChanged: TRUE
         inspector:
-          group: 'visibility'
+          group: 'settings'
+    showDate:
+      type: boolean
+      defaultValue: TRUE
+      ui:
+        label: i18n
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'settings'
