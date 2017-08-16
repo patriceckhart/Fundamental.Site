@@ -3,7 +3,7 @@
 	<file original="" product-name="Fundamental.Site" source-language="en" datatype="plaintext">
 		<body>
 			<trans-unit id="ui.label" xml:space="preserve">
-				<source>Image and Content</source>
+				<source>Container with Image and Content</source>
 			</trans-unit>
             <trans-unit id="properties.containerBackgroundImage" xml:space="preserve">
                 <source>Backgroundimage</source>

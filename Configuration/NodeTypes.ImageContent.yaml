@@ -7,7 +7,7 @@
   ui:
     label: i18n
     group: 'fundamental'
-    icon: 'icon-square'
+    icon: 'icon-picture'
     inlineEditable: TRUE
     inspector:
       groups:

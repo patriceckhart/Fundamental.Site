@@ -19,7 +19,6 @@ class NewsController extends ActionController
      */
     protected $contextFactory;
 
-
     /**
      * @return void
      */
