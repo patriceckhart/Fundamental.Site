@@ -75,11 +75,13 @@ class NewsController extends ActionController
 
                 $this->view->assign('queryOffset', $queryOffset);
 
-                if($sorting=="ascending") {
+                /*if($sorting=="ascending") {
                     $articles2 = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->sort('_index', 'ASC')->slice($queryOffset, $queryItems)->get();
                 } else {
                     $articles2 = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->sort('_index', 'DESC')->slice($queryOffset, $queryItems)->get();
-                }
+                }*/
+
+                $articles2 = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->sort('_index', 'DESC')->slice($queryOffset, $queryItems)->get();
 
                 $pages = ceil($resultsCount / $itemsPerPage);
                 if ($pages <= 10) {
