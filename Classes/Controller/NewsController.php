@@ -54,8 +54,11 @@ class NewsController extends ActionController
 
             $node = $context->getNodeByIdentifier($nodeident);
 
-
-            $articles = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->get();
+            if($sorting=="ascending") {
+                $articles = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->sort('_index', 'ASC')->get();
+            } else {
+                $articles = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->sort('_index', 'DESC')->get();
+            }
 
             $pathsegment = $node->getProperty('uriPathSegment');
             $this->view->assign('pathsegment', $pathsegment);
