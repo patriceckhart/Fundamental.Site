@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079751c0-6d74-4ab8-8b18-b33ca264ec11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Templates/News/Index.html" afterPath="$PROJECT_DIR$/Resources/Private/Templates/News/Index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Controller/NewsController.php" afterPath="$PROJECT_DIR$/Classes/Controller/NewsController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/News/Index.html">
+      <file leaf-file-name="NewsController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classes/Controller/NewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="838">
+              <caret line="80" column="166" lean-forward="false" selection-start-line="80" selection-start-column="166" selection-end-line="80" selection-end-column="166" />
+              <folding>
+                <element signature="e#108#142#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,9 +126,9 @@
         <option value="$PROJECT_DIR$/Resources/Private/Translations/en/NodeTypes/NewsMenu.xlf" />
         <option value="$PROJECT_DIR$/Resources/Private/Fusion/NodeTypes/NewsMenu.fusion" />
         <option value="$PROJECT_DIR$/Classes/Fusion/Eel/FlowQueryOperations/SortOperation.php" />
-        <option value="$PROJECT_DIR$/Classes/Controller/NewsController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Resources/Private/Templates/News/Index.html" />
+        <option value="$PROJECT_DIR$/Classes/Controller/NewsController.php" />
       </list>
     </option>
   </component>
@@ -496,12 +497,12 @@
       <workItem from="1503462271548" duration="3221000" />
       <workItem from="1503467061215" duration="3000" />
       <workItem from="1503472678171" duration="160000" />
-      <workItem from="1503473603271" duration="8000" />
+      <workItem from="1503473603271" duration="236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48199000" />
+    <option name="totallyTimeSpent" value="48427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1344" extended-state="6" />
@@ -888,21 +889,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Controller/NewsController.php">
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/News/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="92" column="50" lean-forward="true" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
-          <folding>
-            <element signature="e#108#142#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/News/Index.html">
+    <entry file="file://$PROJECT_DIR$/Classes/Controller/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="838">
+          <caret line="80" column="166" lean-forward="false" selection-start-line="80" selection-start-column="166" selection-end-line="80" selection-end-column="166" />
+          <folding>
+            <element signature="e#108#142#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
