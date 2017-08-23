@@ -17,6 +17,15 @@
             <trans-unit id="properties.showDate" xml:space="preserve">
 				<source>Datum anzeigen</source>
 			</trans-unit>
+            <trans-unit id="properties.sorting" xml:space="preserve">
+				<source>Sortierung</source>
+			</trans-unit>
+            <trans-unit id="properties.sorting.selectBoxEditor.values.ascending" xml:space="preserve">
+                <source>Aufsteigend</source>
+            </trans-unit>
+            <trans-unit id="properties.sorting.selectBoxEditor.values.descending" xml:space="preserve">
+                <source>Absteigend</source>
+            </trans-unit>
 		</body>
 	</file>
 </xliff>

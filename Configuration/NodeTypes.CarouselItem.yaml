@@ -14,21 +14,21 @@
     carouselItemImage:
       type: 'Neos\Media\Domain\Model\ImageInterface'
       ui:
-        label: 'Bild'
+        label: i18n
         reloadIfChanged: TRUE
         inspector:
           group: 'settings'
     carouselItemTitle:
       type: string
       ui:
-        label: 'Titel'
+        label: i18n
         reloadIfChanged: TRUE
         inspector:
           group: 'settings'
     carouselItemSubTitle:
       type: string
       ui:
-        label: 'Untertitel'
+        label: i18n
         reloadIfChanged: TRUE
         inspector:
           group: 'settings'
@@ -36,6 +36,6 @@
       type: reference
       ui:
         reloadIfChanged: TRUE
-        label: 'Zielseite'
+        label: i18n
         inspector:
           group: 'settings'

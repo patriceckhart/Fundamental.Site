@@ -9,6 +9,7 @@ use Neos\Flow\Annotations as Flow;
 use Neos\Flow\Mvc\Controller\ActionController;
 use Neos\Eel\FlowQuery\FlowQuery;
 use Neos\Eel\FlowQuery\Operations;
+use Neos\Neos\Eel\FlowQueryOperations\SortOperation;
 
 class NewsController extends ActionController
 {
@@ -27,10 +28,12 @@ class NewsController extends ActionController
         $showdate = $this->request->getInternalArgument('__showDate');
         $nodeident = $this->request->getInternalArgument('__nodeident');
         $pagebrowser = $this->request->getInternalArgument('__pagebrowser');
+        $sorting = $this->request->getInternalArgument('__sorting');
         $attributes = $this->request->getInternalArgument('__attributes');
 
         $this->view->assign('pageBrowser', $pagebrowser);
         $this->view->assign('showDate', $showdate);
+        $this->view->assign('sorting', $sorting);
 
         if ($attributes!="") {
             $this->view->assign('attributes', ' class="' . $attributes . '"');
@@ -73,6 +76,12 @@ class NewsController extends ActionController
                 $queryItems = $itemsPerPage * $page;
 
                 $this->view->assign('queryOffset', $queryOffset);
+
+                /*if($sorting=="ascending") {
+                    $articles2 = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->sort('_sortingindex', 'ASC')->slice($queryOffset, $queryItems)->get();
+                } else {
+                    $articles2 = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->sort('_sortingindex', 'DESC')->slice($queryOffset, $queryItems)->get();
+                }*/
 
                 $articles2 = (new FlowQuery(array($node)))->children('[instanceof Fundamental.Site:NewsPage]')->context(array('workspaceName' => 'live'))->sort('_index', 'DESC')->slice($queryOffset, $queryItems)->get();
 

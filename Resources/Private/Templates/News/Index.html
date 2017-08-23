@@ -2,6 +2,7 @@
 {namespace fusion=Neos\Fusion\ViewHelpers}
 {namespace media=Neos\Media\ViewHelpers}
 <div{attributes -> f:format.raw()}>
+{sorting}
 <f:if condition="{noIdent}==1">
     <f:then>
         <ul{attributes -> f:format.raw()}>
