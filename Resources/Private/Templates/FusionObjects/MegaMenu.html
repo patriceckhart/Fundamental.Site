@@ -1,0 +1,51 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+{namespace media=Neos\Media\ViewHelpers}
+{namespace fusion=Neos\Fusion\ViewHelpers}
+<f:render section="itemList" arguments="{items: items, site: site}" />
+<f:section name="itemList">
+    <div id="toggle" class="floatright"><span></span><span></span><span></span><span></span></div>
+    <div id="menutoggle">
+        <nav class="megamenu">
+            <ul class="items-level0">
+                <f:for each="{items}" as="item" iteration="menuItemIterator">
+                    <li class="level0">
+                        <neos:link.node node="{item.node}" class="{item.state}">{item.label}<f:if condition="{item.subItems}"> <i class="fa fa-angle-down" aria-hidden="true"></i></f:if></neos:link.node>
+                        <f:if condition="{item.subItems}">
+                            <f:render section="subList1" arguments="{items: item.subItems}" />
+                        </f:if>
+                    </li>
+                </f:for>
+            </ul>
+        </nav>
+    </div>
+</f:section>
+
+<f:section name="subList1">
+    <div class="megamenu-subwrapper">
+        <ul class="subitems-level1">
+            <f:for each="{items}" as="item">
+            <li>
+                <f:if condition="{item.node.properties.pageImage}">
+                    <figure class="subitems-image">
+                        <media:image image="{item.node.properties.pageImage}" width="240" height="140" allowCropping="TRUE" alt="{item.label}" />
+                    </figure>
+                </f:if>
+                <neos:link.node class="{item.state}" node="{item.node}">{item.label}</neos:link.node>
+                <f:if condition="{item.subItems}">
+                    <f:render section="subList2" arguments="{items: item.subItems}" />
+                </f:if>
+            </li>
+            </f:for>
+        </ul>
+    </div>
+</f:section>
+
+<f:section name="subList2">
+    <ul class="subitems-level2">
+        <f:for each="{items}" as="item">
+            <li>
+                <neos:link.node class="{item.state}" node="{item.node}">{item.label}</neos:link.node>
+            </li>
+        </f:for>
+    </ul>
+</f:section>

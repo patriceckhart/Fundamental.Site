@@ -26,6 +26,9 @@
             <trans-unit id="chooseIdent" xml:space="preserve">
 				<source>Wählen Sie einen Startpunkt im Inspektor</source>
 			</trans-unit>
+            <trans-unit id="pageImage" xml:space="preserve">
+				<source>Seitenbild</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

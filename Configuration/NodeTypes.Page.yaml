@@ -16,6 +16,14 @@
         reloadIfChanged: TRUE
         inspector:
           group: 'settings'
+    pageImage:
+      type: 'Neos\Media\Domain\Model\ImageInterface'
+      ui:
+        label: Fundamental.Site:Main:pageImage
+        reloadIfChanged: TRUE
+        inspector:
+          group: 'document'
+          position: 1
   childNodes:
     main:
       type: 'Neos.Neos:ContentCollection'

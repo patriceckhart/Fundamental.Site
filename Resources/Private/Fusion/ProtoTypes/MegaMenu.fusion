@@ -1,0 +1,5 @@
+prototype(Site:MegaMenu) < prototype(Menu) {
+    entryLevel = 1
+    templatePath = 'resource://Fundamental.Site/Private/Templates/FusionObjects/MegaMenu.html'
+    maximumLevels = 3
+}
