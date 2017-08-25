@@ -21,6 +21,6 @@
 </f:section>
 <f:section name="imageContentimage">
     <f:if condition="{containerBackgroundImage}">
-        <div class="imagecontentinner" style="background:url({media:uri.image(image: containerBackgroundImage)}) no-repeat center top; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
+        <div class="imagecontentinner" style="background:url({media:uri.image(image: containerBackgroundImage, maximumWidth:1200, maximumHeight:900, allowCropping:TRUE)}) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
     </f:if>
 </f:section>
