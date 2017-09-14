@@ -29,6 +29,9 @@
             <trans-unit id="pageImage" xml:space="preserve">
 				<source>Seitenbild</source>
 			</trans-unit>
+            <trans-unit id="language" xml:space="preserve">
+				<source>Sprache</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

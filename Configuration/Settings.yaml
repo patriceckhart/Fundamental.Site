@@ -1,6 +1,7 @@
 Fundamental:
   Site:
     templateRootPath: 'resource://Fundamental.Site/Private/Templates/'
+    lightbox: 'MagnificPopup'
 Neos:
   Neos:
     userInterface:
@@ -32,3 +33,15 @@ Neos:
     fusion:
       autoInclude:
         Fundamental.Site: true
+  ContentRepository:
+    contentDimensions:
+      'language':
+        label: Fundamental.Site:Main:language
+        icon: 'icon-language'
+        default: 'de'
+        defaultPreset: 'de'
+        presets:
+          'de':
+            label: 'Deutsch'
+            values: ['de']
+            uriSegment: 'de'
